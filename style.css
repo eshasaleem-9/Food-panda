@@ -1,0 +1,536 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Rubik:wght@300&display=swap');
+ 
+ @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+
+
+
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+.pink{
+    width: 100%;
+    height: 70px;
+    background-color:#d70f64;
+    color: white;
+    font-weight: 800;
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+    
+    
+}
+.center{
+    
+
+    
+    height:30px;
+    width:320px ;
+    
+}
+button{
+    border: none;
+    background-color:#d70f64 ;
+    color: white;
+    border: 1px solid white;
+    height: 47px;
+    width: 120px;
+    border-radius:3px ;font-size:15px ;
+    margin-left: 15px;
+    font-weight: 700;
+
+
+}
+button:active{
+    background-color: white;
+    color:#d70f64 ;
+}
+.button1{
+    
+    background-color: white;
+    color: black;
+    
+    font-weight: 600;
+    font-size: 10px;
+    height:30px;
+    width:60px ;
+    border: none;
+    box-shadow: 1px 0px 4px gray;
+    position: absolute;
+    top: 10px;
+    right: 110px;
+    
+    
+    
+    
+}
+.button2{
+     background-color: white;
+    color: black;
+    font-weight: 600;
+    font-size: 10px;
+    height:30px;
+    width:60px ;
+    border: none;
+    box-shadow: 1px 0px 4px gray;
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    
+    
+
+
+}
+.second{
+    
+    height: 70px;
+    width: 100%;
+    position: relative;
+    box-shadow: 1px 1px 127px 2px rgba(0, 0, 0, 0.1);
+    
+
+}
+.panda{
+    height: 80px;
+    width: 170px;
+    position: absolute;
+    left: 26PX;
+}
+.benner{
+    background-image: url('https://images.deliveryhero.io/image/foodpanda/hero-home-pk.jpg?width=2000&height=1280|https://images.deliveryhero.io/image/foodpanda/hero-home-pk.jpg?width=4000&height=2560');
+    background-size: 60%;
+    height: 80vh;
+    background-position:right -380px top 0px;
+    background-repeat: no-repeat;
+    
+
+}
+h2{
+    font-family:'Montserrat', sans-serif ;
+
+}
+.white{
+    height: 250px;
+    font-weight: 100;
+    font-size: 30px;
+    display: flex;
+    align-items: flex-end;
+    
+    margin-left: 60px;
+
+}
+.search{
+    height: 95px;
+    width: 71%;
+    
+    margin-left: 60px;
+    margin-top: 15px;
+    box-shadow:2px 2px 20px 3px rgba(0, 0, 0, 0.1) ;
+    display: flex;
+}
+input{
+    height:60px ;
+    width: 520px;
+    font-size: 17px;
+    margin-top:15px ;
+    margin-left:17px ;
+    border: 1px solid lightblue;
+    padding-left:25px ;
+    
+}
+.delivery{
+    height: 60px;
+    width: 160px;
+    background-color:#d70f64 ;
+    margin-top:15px ;
+    margin-left:17px ;
+    color: white;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+}
+.pick-up{
+    height: 60px;
+    width: 160px;
+    background-color:#d70f64 ;
+    margin-top:15px ;
+    margin-left:17px ;
+    color: white;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+
+}
+p{
+    margin-left: 10px;
+    margin-top: 40px;
+}
+h1{
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 40px;
+    margin-top: 30px;
+    font-size: 26px;
+}
+.title{
+    background-image: url('https://images.deliveryhero.io/image/foodpanda/home-vendor-pk.jpg?width=2000&height=1280|https://images.deliveryhero.io/image/foodpanda/home-vendor-pk.jpg?width=4000&height=2560');
+    height: 65vh;
+    background-size: 100%;
+    background-position: center;
+    
+    background-repeat: no-repeat;
+    width: 100%;
+    
+
+}
+.head{
+    height: 350px;
+    width: 45%;
+    background-color: white;
+    position: relative;
+    left: 80px;
+    top:160px ;
+    box-shadow:2px 2px 20px 3px rgba(0, 0, 0, 0.1) ;
+    
+
+}
+h3{
+    font-family:'Montserrat', sans-serif ;
+    padding-top: 30px;
+    padding-left: 33px;
+    font-size:22px ;
+    
+}
+li{
+    list-style: none;
+    padding-top: 20px;
+    font-family:'Montserrat', sans-serif ;
+    
+}
+.start{
+    height: 48px;
+    width: 250px;
+    background-color:#d70f64 ;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-family:'Montserrat', sans-serif ;
+    font-weight: 800;
+    margin-left: 320px;
+    margin-top:39px;
+
+}
+.start:active{
+    background-color:darkmagenta;
+}
+
+.cities{
+    margin-top: 200px;
+    margin-left: 65px;
+    
+    
+}
+.image{
+    width: 80%;
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+
+    
+}
+
+.container{
+    width: 100%;
+    /* padding-left: 30px; */
+    
+    display: inline-flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+
+    
+    
+
+
+
+    
+    
+}
+.img{
+    height: 270px;
+    width: 230px;
+    
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    display: flex;
+    align-items: flex-end;
+    font-size: 25px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    font-weight: 800;
+
+}
+.mobile{
+    
+    
+    
+    background-color: #d70f64 ;
+
+    
+    
+    position: relative;
+    height: 55vh;
+    
+    
+    
+
+
+}
+.order{
+    height: 620px;
+    width:58%;
+    position: absolute;
+    right: -125px;
+    top: -100px;
+    
+}
+.heading{
+    font-family:'Montserrat', sans-serif ;
+    color: white;
+    padding-top: 80px;
+    padding-left: 60px;
+    
+
+}
+
+.para2{
+    font-family:'Montserrat', sans-serif ;
+    color: white;
+    
+    padding-left: 55px;
+
+}
+.apps{
+    height: 100px;
+    width: 700px;
+    
+    display: flex;
+}
+.Appstore{
+    height: 45px;
+    width: 130px;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-left: 60px;
+    margin-top: 25px;
+    border-radius: 10px;
+    font-size: 17px;
+}
+
+.Googleplay{
+    height: 45px;
+    width: 130px;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-left: 20px;
+    margin-top: 25px;
+    border-radius: 10px;
+    font-size: 17px;
+
+    
+}
+.AppGallery{
+    height: 45px;
+    width: 130px;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: 25px;
+    border-radius: 10px;
+    font-size: 17px;
+    
+}
+.office{
+    height: 67vh;
+    width: 100%;
+    
+    background-image: url("https://images.deliveryhero.io/image/foodpanda/home-corporate-pk.jpg?width=1400&height=896");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: relative;
+    
+
+
+}
+.lunch{
+    
+    height: 245px;
+    width: 45%;
+    background-color: white;
+    position: absolute;
+    top: 270px;
+    left: 78px;
+ box-shadow:2px 2px 20px 3px rgba(0, 0, 0, 0.1) ; 
+ font-family: 'Montserrat', sans-serif;
+ 
+    
+
+
+}
+.business{
+    padding-top: 8px;
+    padding-left: 35px;
+
+
+}
+.button{
+    height:45px ;
+    width:230px ;
+    background-color:#d70f64 ; 
+    font-family:'Montserrat', sans-serif ;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 800;
+    margin-top:40px ;
+    margin-left:338px ;
+}
+.detail{
+    font-family:'Lato', sans-serif ;
+    margin-top: 200px;
+    font-size: 36px;
+    font-weight: 200;
+    margin-left: 67px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+ 
+
+
+
+
+
+
